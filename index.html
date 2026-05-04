@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Project Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Career Research</div>
+            <ul class="nav-menu">
+                <li><a href="#" onclick="showTab('home', event)" class="nav-link active">Home</a></li>
+                <li><a href="#" onclick="showTab('what-they-do', event)" class="nav-link">What They Do</a></li>
+                <li><a href="#" onclick="showTab('work-environment', event)" class="nav-link">Work Environment</a></li>
+                <li><a href="#" onclick="showTab('pathway', event)" class="nav-link">Pathway</a></li>
+                <li><a href="#" onclick="showTab('pay-benefits', event)" class="nav-link">Pay/Benefits</a></li>
+                <li><a href="#" onclick="showTab('job-outlook', event)" class="nav-link">Job Outlook</a></li>
+                <li><a href="#" onclick="showTab('more-info', event)" class="nav-link">More Info</a></li>
+                <li><a href="#" onclick="showTab('career-goals', event)" class="nav-link">Career Goals</a></li>
+                <li><a href="#" onclick="showTab('resume', event)" class="nav-link">Resume</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMobileMenu(this)">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- HOME TAB -->
+        <section id="home" class="tab-content active">
+            <div class="hero">
+                <h1 class="page-title">ss</h1>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h2 class="profession-title">Software Engineer</h2>
+                        <p class="profession-description">
+                            Software engineers design, develop, and maintain software applications and systems. They work in various industries, including technology, finance, healthcare, and more. Software engineers collaborate with cross-functional teams to create innovative solutions that meet user needs and drive business success.
+                            Alternatively, they may specialize in making software for the general public for entertainment, such as video games, video sharing platforms, or general social media platforms. 
+                        </p>
+                        <div class="cta-buttons">
+                            <button class="btn btn-primary" onclick="showTab('what-they-do', event)">Explore This Career</button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="images/site-screenshot.png" alt="Code Screenshot" class="hero-img">
+                        <p class="image-caption">Screenshot of the code of this site</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHAT THEY DO TAB -->
+        <section id="what-they-do" class="tab-content">
+            <div class="section-header">
+                <h1>What They Do</h1>
+            </div>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>
+                       Software developers are the creative minds behind computer programs. Some develop the applications that allow people to do specific tasks on a computer or another device. Others develop the underlying systems that run the devices or that control networks.
+                    </p>
+                    <h3>Key Responsibilities:</h3>
+                    <ul>
+                        <li>Analyze users’ needs and then design, test, and develop software to meet those needs</li>
+                        <li>Recommend software upgrades for customers’ existing programs and systems</li>
+                        <li>Test and debug software to ensure it functions correctly</li>
+                        <li>Collaborate with cross-functional teams to create innovative solutions</li>
+                    </ul>
+                </div>
+                <div class="content-image">
+                    <img src="/images/software-develop-office.jpg" alt="Work example" class="section-img">
+                    <p class="image-caption">Software developer working in an office environment</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK ENVIRONMENT TAB -->
+        <section id="work-environment" class="tab-content">
+            <div class="section-header">
+                <h1>Work Environment</h1>
+            </div>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>
+                        Most software engineers work in offices, remotely, or in hybrid settings. Their day usually involves computer-based work, team meetings, and collaboration with colleagues from product, design, and quality assurance.
+                    </p>
+                    <h3>Environmental Characteristics:</h3>
+                    <ul>
+                        <li>Work setting (indoor/outdoor, office/field): Indoor office, remote, or hybrid environments.</li>
+                        <li>Typical hours and schedule: Full-time, often around 40 hours per week, with occasional evenings or weekends during software releases.</li>
+                        <li>Physical demands: Primarily sitting and screen time; strong focus, problem solving, and communication are essential.</li>
+                        <li>Travel requirements: Limited travel; usually local meetings, occasional conferences, or client visits.</li>
+                    </ul>
+                </div>
+                <div class="content-image">
+                    <img src="placeholder-environment.jpg" alt="Work environment" class="section-img">
+                    <p class="image-caption">Typical work environment for this profession</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PATHWAY/HOW TO BECOME ONE TAB -->
+        <section id="pathway" class="tab-content">
+            <div class="section-header">
+                <h1>Pathway: How to Become One</h1>
+            </div>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>
+                        Becoming a software engineer typically begins with strong computer science fundamentals, practical programming experience, and real projects. A bachelor’s degree is common, though hands-on work and a strong portfolio also matter to employers.
+                    </p>
+                    <h3>Steps to Enter This Career:</h3>
+                    <ol>
+                        <li>Graduate from high school with a focus on math and computer science courses.</li>
+                        <li>Earn a bachelor’s degree in computer science, software engineering, or a related field.</li>
+                        <li>Learn key programming languages such as Python, Java, JavaScript, and SQL.</li>
+                        <li>Complete internships, coding boot camps, or personal software projects to build experience.</li>
+                        <li>Develop a portfolio of applications, websites, or contributions to open-source projects.</li>
+                    </ol>
+                </div>
+                <div class="content-image">
+                    <img src="placeholder-pathway.jpg" alt="Career pathway" class="section-img">
+                    <p class="image-caption">Educational pathway to this career</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAY/BENEFITS TAB -->
+        <section id="pay-benefits" class="tab-content">
+            <div class="section-header">
+                <h1>Pay & Benefits</h1>
+            </div>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>
+                        Software engineers earn strong pay and often receive a wide range of workplace benefits. Compensation depends on experience, industry, location, and the size of the employer.
+                    </p>
+                    <h3>Compensation Information:</h3>
+                    <ul>
+                        <li>Median annual salary: $126,830 (May 2023, Bureau of Labor Statistics).</li>
+                        <li>Entry-level salary range: $70,000 to $90,000.</li>
+                        <li>Experienced professional salary range: $110,000 to $160,000+.</li>
+                        <li>Common benefits: Health insurance, retirement plans, paid time off, and flexible schedules.</li>
+                    </ul>
+                    <h3>Additional Compensation:</h3>
+                    <p>Many employers offer signing bonuses, performance bonuses, stock awards, tuition reimbursement, and support for professional certifications.</p>
+                </div>
+                <div class="content-image">
+                    <img src="placeholder-salary.jpg" alt="Salary and benefits" class="section-img">
+                    <p class="image-caption">Compensation overview for this profession</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB OUTLOOK/STATE AND AREA DATA TAB -->
+        <section id="job-outlook" class="tab-content">
+            <div class="section-header">
+                <h1>Job Outlook & Area Data</h1>
+            </div>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>
+                        The software engineering field is growing rapidly as companies continue to adopt mobile apps, cloud computing, and artificial intelligence. Demand is strongest where technology and data-driven industries are concentrated.
+                    </p>
+                    <h3>Job Market Information:</h3>
+                    <ul>
+                        <li>National job growth outlook: 25% growth from 2022 to 2032, much faster than average.</li>
+                        <li>State-specific job opportunities: High demand in California, Washington, Texas, New York, and Massachusetts.</li>
+                        <li>Regional concentration: Strong hiring in Silicon Valley, Seattle, Austin, Boston, and the Research Triangle.</li>
+                        <li>Demand trends: Growth driven by cloud computing, mobile applications, cybersecurity, and machine learning.</li>
+                    </ul>
+                    <h3>Future Prospects:</h3>
+                    <p>Software engineers should expect continued opportunities as businesses modernize systems, build new digital products, and protect data from cyberthreats.</p>
+                </div>
+                <div class="content-image">
+                    <img src="placeholder-outlook.jpg" alt="Job outlook chart" class="section-img">
+                    <p class="image-caption">Job outlook and growth projections</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MORE INFORMATION/EXTERNAL LINKS TAB -->
+        <section id="more-info" class="tab-content">
+            <div class="section-header">
+                <h1>More Information & Resources</h1>
+            </div>
+            <div class="content-full">
+                <p>
+                    Below are vetted resources and links for further research into this career. Include a link to a related article about college or the world of work.
+                </p>
+                <h3>External Resources:</h3>
+                <div class="resources-list">
+                    <div class="resource-item">
+                            <h4><a href="https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm" target="_blank">Software Developers - Occupational Outlook Handbook</a></h4>
+                            <p>Official career profile with salary, job duties, and growth data.</p>
+                        </div>
+                        <div class="resource-item">
+                            <h4><a href="https://www.bls.gov/ooh/computer-and-information-technology/" target="_blank">Computer and Information Technology Occupations</a></h4>
+                            <p>Broad information about technology careers and industry trends.</p>
+                        </div>
+                        <div class="resource-item">
+                            <h4><a href="https://www.bls.gov/careeroutlook/" target="_blank">Career Outlook</a></h4>
+                            <p>Guidance on choosing a career path and preparing for the world of work.</p>
+                        </div>
+                        <div class="resource-item">
+                            <h4><a href="https://www.pathful.io/" target="_blank">Pathful Career Exploration</a></h4>
+                            <p>Interactive career exploration tool for job and education planning.</p>
+                        </div>
+                    </div>
+
+                    <div class="citations-box">
+                        <p>Scan the QR code below to access the full Google Doc with my citations.</p>
+                        <img src="images/qr-code.svg" alt="QR code linking to citations document" class="qr-code-img">
+                    </div>
+            </div>
+        </section>
+
+        <!-- CAREER GOALS TAB -->
+        <section id="career-goals" class="tab-content">
+            <div class="section-header">
+                <h1>My Career Goals</h1>
+            </div>
+            <div class="content-full">
+                <p>
+                    Reflect on your own career aspirations related to this profession. What are your personal goals and how does this career align with your interests and values?
+                </p>
+                
+                <h3>Short-Term Goals (1-2 years):</h3>
+                <ul>
+                    <li>Build and maintain a strong portfolio of programming projects.</li>
+                    <li>Complete computer science coursework and coding certifications.</li>
+                    <li>Gain real experience through internships, school projects, or part-time work.</li>
+                </ul>
+
+                <h3>Long-Term Goals (5-10 years):</h3>
+                <ul>
+                    <li>Earn a software engineering position at a technology-focused company.</li>
+                    <li>Lead development projects and mentor others on a software team.</li>
+                    <li>Create software that improves user experiences and solves real problems.</li>
+                </ul>
+
+                <h3>Personal Reflection:</h3>
+                <p>
+                    This career appeals to me because I enjoy solving problems with technology, building apps that help people, and working on teams to create products. I plan to use my interest in coding, attention to detail, and creative thinking to earn the training and experience needed to succeed in software engineering.
+                </p>
+
+                <div class="goals-image">
+                    <img src="placeholder-goals.jpg" alt="Career goals" class="section-img">
+                    <p class="image-caption">Visualizing my career aspirations</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RESUME TAB -->
+        <section id="resume" class="tab-content">
+            <div class="section-header">
+                <h1>Resume</h1>
+            </div>
+            <div class="content-full">
+                <p class="note">
+                    Below is an embedded PDF of my resume. This document highlights my education, skills, and experiences relevant to my career goals.
+                </p>
+                <div class="resume-embed">
+                    <iframe src="documents/resume.pdf" class="resume-iframe"></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Shayden Sloan.</p>
+            <p>Career Research Project</p>
+            <p>Website made for educational purposes.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
